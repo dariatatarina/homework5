@@ -20,9 +20,14 @@ body {
 	clear: both;
 }
 
+.container {
+	margin: 0 auto;
+	width: 100%;
+}
+
 .menu {
 	float: right;
-    margin-right: 20px;
+    
 
 }
 .menu li {
@@ -57,10 +62,8 @@ body {
 }
 
 nav {
-	background: url(../img/header.png) repeat-x fixed;
+	background: url(../img/header.png) repeat-x;
 	height: 45px;
-	width: 90%;
-	margin:0 70px;
 }
 
 .minhas,
@@ -85,7 +88,7 @@ nav {
 .ola a {
 	color: #fff;
 	text-decoration: underline;
-	text-decoration-color:#4eabda;
+	
 }
 
 .ola li{
@@ -95,49 +98,46 @@ nav {
     border: 1px solid #4299d2;
     color: #fff;
     line-height: 33px;
-}
+ }
 
 .ola a:hover,
 .minhas a:hover {
-	background: #4eabda; 
 	height: 40px;
 	color: #fff;
 	line-height: 30px;
-	
+
 }
 
 .bg {
-	margin: 0 70px;
-	height: 160vh;
-	width: 90%;
+	min-height: 1030px;	
     background-size: cover;
     background-position: center;
     background-image: url(../img/bg.png);
-    position: relative;
- 	
 }
 
-.center-block {
-	width: 555px;
-    height: 650px;
-    background-color: rgba(0, 0, 0, 0.6);
-    position: absolute;
-    top: 15%;
-    right: 0;
-    bottom: 15%;
-    left: 0;
-    margin: 140px auto;
 
-}
 .content {
-    position: relative;
+	background-color: rgba(0, 0, 0, 0.6);
+	width: 560px;
+    height: 610px;
+    position: absolute;    
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-    text-align: center;
+    margin: 220px auto;
 }
-.first_line {
+
+.form {
+	position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+}
+
+.cadastre {
 	text-align: center;
 	color: #fff;
     font-size: 25px;
@@ -153,19 +153,6 @@ nav {
 	text-align: center;
 	margin: 16px 0;
 	color: #8a8c8a;
-}
-
-.form {
-	width: 555px;
-    height: 680px;
-    color: white;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    margin: 140px auto;
-
 }
 
 .login {
