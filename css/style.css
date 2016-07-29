@@ -22,7 +22,7 @@ body {
 
 .container {
 	margin: 0 auto;
-	width: 100%;
+	width: 1215px;
 }
 
 .menu {
@@ -113,6 +113,8 @@ nav {
     background-size: cover;
     background-position: center;
     background-image: url(../img/bg.png);
+    position: relative;
+    
 }
 
 
@@ -121,24 +123,14 @@ nav {
 	width: 560px;
     height: 610px;
     position: absolute;    
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    margin: 220px auto;
+    top: 50%;
+    left: 50%;
+    margin: -305px 0 0 -280px;
 }
 
-.form {
-	position: relative;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
 
-}
-
-.cadastre {
-	text-align: center;
+.cadastre{
+    text-align: center;
 	color: #fff;
     font-size: 25px;
     margin: 16px 0;
